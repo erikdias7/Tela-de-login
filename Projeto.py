@@ -1,6 +1,4 @@
 from PySimpleGUI import PySimpleGUI as sg
-from main import *
-from lugares import *
 #layout
 def interface():
     sg.theme('DarkBlue7')
@@ -20,7 +18,7 @@ def interface():
         if eventos == sg.WINDOW_CLOSED:
             break
         if eventos == 'Entrar':
-            escolhe_reino()
+            print("Bem vindo")
 
 if(__name__ == "__main__"):        
     interface()
